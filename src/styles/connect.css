@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 *, *::before, *::after {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,14 +10,30 @@
     background-color: ;
 } */
 
+.grid-header {
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.grid-description {
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    color: rgb(178, 185, 192);
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax( 300px, 1fr) );
-    gap: 1rem;
+    gap: 2rem;
     /* next: in case 1 card has too much text
         it fixes the extra space
     */
     align-items: flex-start;
+    padding-top: 3rem;
+    padding-left: 2rem;
 }
 
 .card {
@@ -103,8 +123,9 @@
     on the sides = --padding
 */
 .card-body {
-    font-size: .9rem; 
-    padding: 0 var(--padding)
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 var(--padding);
 }
 
 .card-footer {

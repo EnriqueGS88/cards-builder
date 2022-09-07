@@ -2,14 +2,24 @@ import React from 'react';
 
 export const CardData = [
     {
-        title: 'Provider 1',
+        title: 'Detroitte',
         description: 'good provider',
-        img: 'https://source.unsplash.com/lVVs5skyWoo',
+        img: 'https://raw.githubusercontent.com/EnriqueGS88/imagery/main/carbon/detroitte.PNG',
     },
     {
-        title: 'Provider 2',
+        title: 'Addsolut',
         description: 'average provider',
-        img: 'https://source.unsplash.com/YjwJTbe0jjE',
+        img: 'https://raw.githubusercontent.com/EnriqueGS88/imagery/main/carbon/addsolut.PNG',
+    },
+    {
+        title: 'McDinsey',
+        description: 'average provider',
+        img: 'https://raw.githubusercontent.com/EnriqueGS88/imagery/main/carbon/mcdinsey.PNG',
+    },
+    {
+        title: 'BCQ Ventures',
+        description: 'average provider',
+        img: 'https://raw.githubusercontent.com/EnriqueGS88/imagery/main/carbon/bcq_ventures.PNG',
     }
 
 ]
