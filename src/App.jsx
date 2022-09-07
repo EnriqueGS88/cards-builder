@@ -1,7 +1,9 @@
+import Cards from './components/Cards'
+
 
 function App() {
   return (
-    <div>lorem100</div>
+    <Cards/>
   );
 }
 
